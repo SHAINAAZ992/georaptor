@@ -1,0 +1,14 @@
+{
+  "name": "georaptor",
+  "version": "1.0.0",
+  "description": "GeoRaptor: Python Geohash Compression Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shainaaz Mohammed <shainaazmohammed@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ngeohash": "^0.6.0"
+  }
+}
