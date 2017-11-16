@@ -9,12 +9,9 @@ GeoRaptor creates the best combination of geohashes across various levels to rep
 
 Following is a sample of what georaptor does
 
-.. image:: https://raw.github.com/ashwin711/georaptor/master/images/sgp_input.png
-   :width: 480
-   :height: 320
-.. image:: https://raw.github.com/ashwin711/georaptor/master/images/sgp_output.png
-   :width: 480
-   :height: 320
+ image: https://raw.github.com/ashwin711/georaptor/master/images/sgp_input.png
+ image:  https://raw.github.com/ashwin711/georaptor/master/images/sgp_output.png
+
 
 *Input:* 1096 geohashes at precision 6 for Singapore.
 
