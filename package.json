@@ -1,6 +1,6 @@
 {
   "name": "georaptor",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "GeoRaptor: Python Geohash Compression Tool",
   "main": "index.js",
   "scripts": {

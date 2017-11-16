@@ -40,7 +40,6 @@ function unionset(set1, set2) {
 }
 
 exports.compress = function (geohashes, minlevel, maxlevel,approxHashesCount) {
-    console.log("begin "+approxHashesCount);
     let geoHashesGlobal = geohashes;
     let deletegh = new Set();
     let finalGeohashes = new Set();
