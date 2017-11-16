@@ -9,10 +9,10 @@ GeoRaptor creates the best combination of geohashes across various levels to rep
 
 Following is a sample of what georaptor does
 
-.. image:: https://camo.githubusercontent.com/98016233c7ec25431c346d09043d61ca52b83803/68747470733a2f2f7261772e6769746875622e636f6d2f61736877696e3731312f67656f726170746f722f6d61737465722f696d616765732f7367705f696e7075742e706e67
+.. image:: https://raw.github.com/ashwin711/georaptor/master/images/sgp_input.png
    :width: 480
    :height: 320
-.. image:: https://camo.githubusercontent.com/5136f17d38158fff6a14f26a39ca70b31fb93a37/68747470733a2f2f7261772e6769746875622e636f6d2f61736877696e3731312f67656f726170746f722f6d61737465722f696d616765732f7367705f6f75747075742e706e67
+.. image:: https://raw.github.com/ashwin711/georaptor/master/images/sgp_output.png
    :width: 480
    :height: 320
 
