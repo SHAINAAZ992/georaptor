@@ -22,7 +22,7 @@ function isSuperset(superset, subset,approxHashesCount) {
         }
 
     }
-    if(count>27){
+    if(approxHashesCount == true && count>27){
         return true;
     }
     else {
@@ -40,6 +40,7 @@ function unionset(set1, set2) {
 }
 
 exports.compress = function (geohashes, minlevel, maxlevel,approxHashesCount) {
+    console.log("begin "+approxHashesCount);
     let geoHashesGlobal = geohashes;
     let deletegh = new Set();
     let finalGeohashes = new Set();
