@@ -22,7 +22,10 @@ function isSuperset(superset, subset,approxHashesCount) {
         }
 
     }
-    if(approxHashesCount == true && count>27){
+    if(!approxHashesCount){
+        return true;
+    }
+    else if(approxHashesCount == true && count>27){
         return true;
     }
     else {

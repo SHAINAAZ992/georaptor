@@ -9,14 +9,26 @@ GeoRaptor creates the best combination of geohashes across various levels to rep
 
 Following is a sample of what georaptor does
 
- image before approximating hashes : ![proximity1](https://user-images.githubusercontent.com/16045606/33555955-4d567c40-d928-11e7-91bf-e8edb0e581ac.png)
- image after approximating hashes :  ![screen shot 2017-12-04 at 7 19 41 pm](https://user-images.githubusercontent.com/16045606/33555977-6a14f5dc-d928-11e7-9af1-4bc671422cb5.png)
+ ## Image without georaptor compression :
+
+  ![proximity1](https://user-images.githubusercontent.com/16045606/33555955-4d567c40-d928-11e7-91bf-e8edb0e581ac.png)
+
+ ## Image with georaptor compression (no hash approximation) :
+
+  ![screen shot 2017-12-04 at 7 39 45 pm](https://user-images.githubusercontent.com/16045606/33556732-f406252a-d92a-11e7-9f09-1120b82d7317.png)
+
+
+ ## Image with georaptor compression and hash approximation :
+
+   ![screen shot 2017-12-04 at 7 19 41 pm](https://user-images.githubusercontent.com/16045606/33555977-6a14f5dc-d928-11e7-9af1-4bc671422cb5.png)
 
 
 
-*Input:* 1096 geohashes at precision 6 for Singapore.
+*hash count when georaptorFlag set to false :* 2264 geohashes at precision 7 for Bangalore.
 
-*Output:* 414 geohashes with a mix of precision 5 and 6.
+*hash count when georaptorFlag set to true and approxHashCount set to false :* 271 geohashes with a mix of precision 6 and 7.
+
+*hash count when georaptorFlag set to true and approxHashCount set to true :* 103 geohashes with a mix of precision 6 and 7.
 
 ## Credits
 
@@ -33,6 +45,7 @@ npm install georaptor
 
 
 ```js
+
 var georaptor = require('georaptor');
 
 let compressedHashes = georaptor.compress(new Set(["tdr1qr9","tdr1qr9","tdr1qz8","tdr1qz8"]),
