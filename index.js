@@ -74,7 +74,7 @@ exports.compress = function (geohashes, minlevel, maxlevel,approxHashesCount) {
 
 
                         if (geohashLength >= maxlevel) {
-                            finalGeohashes.add(present.slice(0, -maxlevel));
+                            finalGeohashes.add(present.slice(0, maxlevel));
                         }
                         else {
                             finalGeohashes.add(present);
